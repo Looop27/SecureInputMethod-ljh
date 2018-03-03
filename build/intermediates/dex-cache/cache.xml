@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f14b9dda0e7d8e7a7c60e1b977cead4fd9a83825.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_031d9ea2362a9502e464c33c54bce55ec1f7e8c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_748946e2fb02bd925dce289cc9ec8e5d9bb4a966.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_dd793138c6a102de2c57bb87654682a82ad52976.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_99b1c504d79ce7c06a0acd077607da241f5b0e7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_c16b2e3259ab22dcae5c8cbfef9de97666d81bdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/SecureInputMethod/openCVLibrary249/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="77cf0e4b1e5204307aa10f5ae18e07e82c08d56a">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/SecureInputMethod-openCVLibrary249-unspecified_18ce13a627d2adfc07e86da814b77681fededd51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_70e1b1e6e78fd60e44d10b6b51bf7f7015eb80d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_d7f6ccf05f78b4219d9d1532c1faaf82d57fb67e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_a10de8e89c1499d1ed60b7e685a06f112374f549.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_8398728568cada2326e6bdf0e0abfaeab4ba110d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_f76ee30dbdcf3e5fb35b756a1c671b2393eb3e48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_fa56f2efd6ee873443f93ad60c62aabc89b363a3.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/res/merged/debug/xml/qwerty.xml",
+        "source": "/Users/irisliu/Downloads/SecureInputMethod/app/src/main/res/xml/qwerty.xml"
+    },
+    {
+        "merged": "/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/res/merged/debug/xml/ime_preferences.xml",
+        "source": "/Users/irisliu/Downloads/SecureInputMethod/app/src/main/res/xml/ime_preferences.xml"
+    },
+    {
+        "merged": "/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/res/merged/debug/xml/symbols.xml",
+        "source": "/Users/irisliu/Downloads/SecureInputMethod/app/src/main/res/xml/symbols.xml"
+    },
+    {
+        "merged": "/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/res/merged/debug/xml/symbols_shift.xml",
+        "source": "/Users/irisliu/Downloads/SecureInputMethod/app/src/main/res/xml/symbols_shift.xml"
+    },
+    {
+        "merged": "/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/res/merged/debug/xml/method.xml",
+        "source": "/Users/irisliu/Downloads/SecureInputMethod/app/src/main/res/xml/method.xml"
+    },
+    {
+        "merged": "/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/res/merged/debug/xml/keypad.xml",
+        "source": "/Users/irisliu/Downloads/SecureInputMethod/app/src/main/res/xml/keypad.xml"
+    }
+]

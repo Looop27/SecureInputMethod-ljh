@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 Google Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/settings_name">
+        <PreferenceCategory
+        android:title="@string/general_category"
+        android:key="general_settings">
+                <CheckBoxPreference
+            android:key="random_setting"
+            android:title="@string/random_keyboard_setting"
+            android:defaultValue="true"
+            android:persistent="true" />
+        </PreferenceCategory>
+        <PreferenceCategory
+        android:title="Cursor"
+        android:key="cursor_settings">
+		   <SeekBarPreference
+		       android:id="@+id/seekBar1"
+		   android:defaultValue="11"
+		   android:max="19"
+		   android:title="Acceleration"
+		   android:layout_below="@+id/textView1"
+		   android:key="Acceleration">
+		   </SeekBarPreference>
+		   <SeekBarPreference
+		       android:id="@+id/seekBar2"
+		   android:defaultValue="4"
+		   android:max="10"
+		   android:title="Sensitivy"
+		   android:layout_below="@+id/textView1"
+		   android:key="Sensitivy">
+		   </SeekBarPreference>
+	   </PreferenceCategory>
+</PreferenceScreen>

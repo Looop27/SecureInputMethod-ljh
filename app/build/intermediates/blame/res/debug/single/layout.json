@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/res/merged/debug/layout/linear_layout.xml",
+        "source": "/Users/irisliu/Downloads/SecureInputMethod/app/src/main/res/layout/linear_layout.xml"
+    },
+    {
+        "merged": "/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/res/merged/debug/layout/my_custom_layout.xml",
+        "source": "/Users/irisliu/Downloads/SecureInputMethod/app/src/main/res/layout/my_custom_layout.xml"
+    },
+    {
+        "merged": "/Users/irisliu/Downloads/SecureInputMethod/app/build/intermediates/res/merged/debug/layout/input.xml",
+        "source": "/Users/irisliu/Downloads/SecureInputMethod/app/src/main/res/layout/input.xml"
+    }
+]

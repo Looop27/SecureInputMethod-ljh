@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+        package="com.seu.SecureFingerMouse"
+        android:versionName="1.0.0"
+    	android:versionCode="1">
+    	<uses-sdk android:minSdkVersion="14" />
+    	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+ <!--    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission> -->
+   <uses-permission android:name="android.permission.WAKE_LOCK" /> 
+
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+   <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application android:label="@string/ime_name" android:icon="@drawable/pek_icon" android:name=".Singleton">
+        <service android:name="SoftKeyboard"
+                android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method" />
+        </service>
+
+        <activity android:name=".PEK" android:label="@string/settings_name">
+            <intent-filter>
+                 <action android:name="android.intent.action.MAIN"/>
+ <!--                 <category android:name="android.intent.category.APP_MESSAGING"  />   -->
+            </intent-filter>
+        </activity>
+        <service android:name="com.seu.SecureFingerMouse.CursorService">
+            <intent-filter>
+                <action android:name="com.seu.SecureFingerMouse.CursorService" />
+            </intent-filter>
+        </service> 
+
+    </application>
+    
+</manifest>
+
+<!--android:allowBackup="true"
+android:vmSafeMode="true"       
+android:allowClearUserData="true"
+android:hardwareAccelerated="true"-->
