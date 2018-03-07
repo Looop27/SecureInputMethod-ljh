@@ -245,16 +245,16 @@ public class OpenCVWorker implements Runnable {//针对opencv的工作类
     private void setupCamera() {
     	Log.e("lingzhen","*********");//以后见到的所有Log.e都为红字输出。只是学姐用来检测断点的
         if (mCamera != null) {
-//        	Log.e("lingzhen","if (mCamera != null)");
+        	Log.e("lingzhen","if (mCamera != null)");
             VideoCapture camera = mCamera;
-//            Log.e("lingzhen","if (mCamera != null) 1111");
+            Log.e("lingzhen","if (mCamera != null) 1111");
             mCamera = null; // Make it null before releasing...
-//            Log.e("lingzhen","if (mCamera != null) 222222");
+            Log.e("lingzhen","if (mCamera != null) 222222");
             camera.release();//关闭视频文件
-//            Log.e("lingzhen","if (mCamera != null) 33333");
+          Log.e("lingzhen","if (mCamera != null) 33333");
         }
 
-//        Log.e("lingzhen","if (mCamera != null) 444444");
+       Log.e("lingzhen","if (mCamera != null) 444444");
 //        mCamera = new VideoCapture(mCameraId);
         mCamera = new VideoCapture(0);//建立一个videocapture
         Log.e("lingzhen","************************");

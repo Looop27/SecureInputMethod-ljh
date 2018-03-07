@@ -16,7 +16,7 @@
 //package com.seu.android.softkeyboard;
 package com.seu.SecureFingerMouse;
 
-//package com.random.android.randomkeyboard;
+
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -384,7 +384,18 @@ public class SoftKeyboard extends InputMethodService
             }
         }
     }
-    
+
+    //刘谨慧添加start
+    //在oncreate()上面添加一个静态初始化块代码，它是用来加载OpenCV_java库的，
+//    static {
+//          Log.i(TAG, "OpenCV library load!");
+//          if (!OpenCVLoader.initDebug()) {
+//                Log.i(TAG, "OpenCV load not successfully");
+//            } else {
+//                // load other libraries
+//            }
+//        }
+    //end
     /**
      * Main initialization of the input method component.  Be sure to call
      * to super class.
@@ -448,7 +459,25 @@ public class SoftKeyboard extends InputMethodService
         DisplayMetrics dm = new DisplayMetrics();
         WindowManager winMgr = (WindowManager)getSystemService(Context.WINDOW_SERVICE);
        	winMgr.getDefaultDisplay().getMetrics(dm); //创建一个新窗口函数
-       	
+////刘谨慧添加start
+//
+//
+//        try{
+//            System.loadLibrary("HandGestureApp");
+//            //To do - add your static code
+//        }
+//        catch(UnsatisfiedLinkError e) {
+//            Log.v(TAG, "Native code library failed to load.\n" + e);
+//        }
+//        catch(Exception e) {
+//            Log.v(TAG, "Exception: " + e);
+//        }
+//
+//        //如果callback success，初始化相机视图
+//       initCameraView();
+//        //把context传递给sigleton
+//        Singleton.getInstance().m_context = this;
+////刘谨慧添加end
        	double screenheight = dm.heightPixels*0.3;
        	double screenwidth = dm.widthPixels*0.3;
        	double mymargin = dm.widthPixels/2;
@@ -475,6 +504,8 @@ public class SoftKeyboard extends InputMethodService
         text_dy = new TextView(this);
         text_d = new TextView(this);
         text_dt = new TextView(this);
+
+
     }
     
     
@@ -1257,12 +1288,17 @@ public class SoftKeyboard extends InputMethodService
         final InputMethodSubtype subtype = mInputMethodManager.getCurrentInputMethodSubtype();
         mInputView.setSubtypeOnSpaceKey(subtype);
 
-        if(OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_3, this, new OpenCVLoaderCallback(this))){
-        	Log.i(TAG, "Loaded OpenCV");
-        }else{
-        	Log.i(TAG, "Couldn't load OpenCV");
+//        if(OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_3, this, new OpenCVLoaderCallback(this))){
+//        	Log.i(TAG, "Loaded OpenCV");
+//        }else{
+//        	Log.i(TAG, "Couldn't load OpenCV");
+//        }
+        if(OpenCVLoader.initDebug()) { //默认加载opencv_java.so库
+            OpenCVLoaderCallback mLoaderCallback = new OpenCVLoaderCallback(this);
+            mLoaderCallback.onManagerConnected(LoaderCallbackInterface.SUCCESS);
+//加载依赖opencv_java.so的jni库
+
         }
-        
         if(Singleton.getInstance().m_CurService != null){
 	        cmdShowCursor();
 	        m_bRunning = true;
